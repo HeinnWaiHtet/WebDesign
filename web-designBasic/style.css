@@ -3,3 +3,12 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+body {
+  font-family: "Courier New", Courier, monospace;
+  width: auto;
+}
+
+.container {
+  width: 1040px;
+}
