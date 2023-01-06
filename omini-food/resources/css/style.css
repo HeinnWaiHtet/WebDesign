@@ -33,3 +33,54 @@ header {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+h1 {
+  margin: 0;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+  font-size: 240%;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  padding: 10px 30px;
+  text-decoration: none;
+  font-weight: 300;
+  border-radius: 20px;
+  transition: background-color 0.5s, color 0.5s, border 0.5s;
+}
+
+.btn:active,
+.btn:hover {
+  background-color: #af5404;
+}
+
+.btn-full:link,
+.btn-full:visited {
+  background-color: #e67e22;
+  color: #fff;
+  margin-right: 12px;
+}
+
+.btn-full:active,
+.btn-full:hover {
+  border: 1px solid #af5404;
+  background-color: #af5404;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited {
+  border: 1px solid #e67e22;
+  color: #e67e22;
+}
+
+.btn-ghost:active,
+.btn-ghost:hover {
+  background-color: #af5404;
+  color: #fff;
+}
