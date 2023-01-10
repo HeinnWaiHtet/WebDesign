@@ -48,6 +48,18 @@ section {
   color: #e67e22;
 }
 
+.clear-fix {
+  zoom: 1;
+}
+
+.clear-fix::after {
+  content: ".";
+  display: block;
+  visibility: hidden;
+  height: 0;
+  clear: both;
+}
+
 /*----------- Header Section -----------*/
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)),
@@ -221,4 +233,55 @@ h3 {
 .meal-photo img:hover {
   transform: scale(1.03);
   opacity: 1;
+}
+
+/*----------- Step Section -----------*/
+.steps-section {
+  background-color: #e9e7e7;
+}
+
+.app-phone {
+  width: 40%;
+}
+
+.step-boxs:first-child {
+  text-align: right;
+  padding-right: 3%;
+  margin-top: 30px;
+}
+
+.step-boxs:last-child {
+  padding-right: 3%;
+  margin-top: 50px;
+}
+
+.work-steps {
+  margin-bottom: 50px;
+}
+
+.work-steps:last-of-type {
+  margin-bottom: 80px;
+}
+
+.work-steps div {
+  display: inline-block;
+  width: 55px;
+  height: 55px;
+  text-align: center;
+  border: 1px solid #e67e22;
+  border-radius: 50%;
+  padding-top: 5px;
+  font-size: 150%;
+  float: left;
+  margin-right: 10px;
+}
+
+.btn-app img {
+  height: 50px;
+  width: auto;
+  margin-right: 10px;
+}
+
+.btn-app {
+  text-decoration: none;
 }
