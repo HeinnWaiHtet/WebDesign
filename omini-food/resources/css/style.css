@@ -22,7 +22,7 @@ html {
 }
 
 section {
-  padding: 80px 0;
+  padding: 50px 0;
 }
 
 .long-para {
@@ -181,6 +181,17 @@ h3 {
 }
 
 /*----------- Meals Section -----------*/
+
+.feature-section,
+.long-para {
+  margin-bottom: 10px;
+}
+
+/*----------- Meals Section -----------*/
+.meal-section {
+  padding: 0;
+}
+
 .meal-showcase {
   width: 100%;
   list-style: none;
@@ -195,9 +206,19 @@ h3 {
 .meal-photo {
   width: 100%;
   margin: 0;
+  overflow: hidden;
+  background: #000;
 }
 
 .meal-photo img {
+  opacity: 70%;
   width: 100%;
   height: auto;
+  transform: scale(1.15);
+  transition: transform 1s, opacity 1s;
+}
+
+.meal-photo img:hover {
+  transform: scale(1.03);
+  opacity: 1;
 }
