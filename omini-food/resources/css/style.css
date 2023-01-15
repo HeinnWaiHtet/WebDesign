@@ -264,7 +264,7 @@ h3 {
 }
 
 .work-steps div {
-  display: inline-block;
+  display: block;
   width: 55px;
   height: 55px;
   text-align: center;
@@ -284,4 +284,46 @@ h3 {
 
 .btn-app {
   text-decoration: none;
+}
+
+/*----------- City Section -----------*/
+.box h3 {
+  font-weight: 300;
+}
+
+.box img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.city-feature {
+  margin-bottom: 15px;
+}
+
+.icon-small {
+  color: #e67e22;
+  display: inline-block;
+  text-align: center;
+  font-size: 120%;
+  width: 30px;
+  line-height: 120%;
+  vertical-align: middle;
+  margin-right: 10px;
+  margin-top: -5px;
+}
+
+.city-twitter:link,
+.city-twitter:visited {
+  text-decoration: none;
+  color: #e67e22;
+  padding-bottom: 2px;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 0.8s, color 0.8s;
+}
+
+.city-twitter:active,
+.city-twitter:hover {
+  color: #000;
+  border-bottom: 1px solid #e67e22;
 }
