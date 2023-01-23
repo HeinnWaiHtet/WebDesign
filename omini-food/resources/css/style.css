@@ -72,7 +72,8 @@ header {
 
 /*----------- Button Group -----------*/
 .btn:link,
-.btn:visited {
+.btn:visited,
+button {
   display: inline-block;
   padding: 10px 30px;
   text-decoration: none;
@@ -82,7 +83,9 @@ header {
 }
 
 .btn:active,
-.btn:hover {
+.btn:hover,
+button:active,
+button:hover {
   background-color: #af5404;
 }
 
@@ -416,4 +419,36 @@ cite img {
 .plan-box div:last-child {
   text-align: center;
   border: 0;
+}
+
+/*----------- Contact Section -----------*/
+.content-form {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.content-form .row {
+  margin-bottom: 3px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+  width: 100%;
+  padding: 7px;
+  border-radius: 3px;
+  border: 1px solid #616060;
+}
+
+input[type="checkbox"] {
+  border: 10px 5px 10px 0;
+}
+
+textarea {
+  height: 100px;
+}
+
+*:focus {
+  outline: none;
 }
