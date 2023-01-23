@@ -366,3 +366,54 @@ cite img {
   height: 70px;
   margin-right: 10px;
 }
+
+/*----------- Plan Section -----------*/
+.section-plan {
+  background-color: #cfcfcf;
+}
+
+.plan-box {
+  background-color: #fff;
+  width: 90%;
+  border-radius: 5px;
+  margin-left: 5px;
+  box-shadow: 0 2px 2px #e4e1e1;
+}
+
+.plan-box div {
+  border-bottom: 1px solid #9c9a9a;
+  padding: 15px;
+}
+
+.plan-price {
+  font-size: 300%;
+  font-weight: 100;
+  margin-bottom: 15px;
+  color: #e67e22;
+}
+
+.plan-price span {
+  font-size: 30%;
+  font-weight: 300;
+}
+
+.plan-price-meal {
+  font-size: 80%;
+}
+
+.plan-box ul {
+  list-style: none;
+}
+
+.plan-box ul li {
+  padding: 5px 5px;
+}
+
+.plan-box div:first-child {
+  background-color: #f5f4f4;
+}
+
+.plan-box div:last-child {
+  text-align: center;
+  border: 0;
+}
